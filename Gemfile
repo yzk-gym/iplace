@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
 # oath認証用
 gem 'omniauth-twitter'
 
@@ -54,6 +55,14 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'foreman'
   gem 'devise'
+
+  # rails console にpryを使う&拡張機能追加
+  # https://github.com/rweng/pry-rails
+  # http://ruby-rails.hatenadiary.com/entry/20141024/1414081224
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'pry-doc'
+  gem 'pry-stack_explorer'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
