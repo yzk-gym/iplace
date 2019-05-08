@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: iplace_production
-  username: iplace
+  username: yuya
   password: <%= ENV['IPLACE_DATABASE_PASSWORD'] %>
