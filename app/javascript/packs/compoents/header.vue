@@ -17,7 +17,7 @@
 
 <style scoped>
   .p-header {
-    background-color: #5effcd;
+    background-color: #22ffb0;
     width: 100vw;
   }
   .c-header-list {
