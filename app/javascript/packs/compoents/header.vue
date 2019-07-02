@@ -1,9 +1,9 @@
 <template>
-  <div class="p-header">
+  <div class="u-header">
     <nav>
-      <ul class="c-header-list">
-        <li class="c-header-item">Sign up</li>
-        <li class="c-header-item">Sign in</li>
+      <ul class="u-header-list">
+        <li class="u-header-list__item">Sign up</li>
+        <li class="u-header-list__item">Sign in</li>
       </ul>
     </nav>
   </div>
@@ -16,18 +16,18 @@
 </script>
 
 <style scoped>
-  .p-header {
-    background-color: #22ffb0;
+  .u-header {
+    background-color: #5effcd;
     width: 100vw;
   }
-  .c-header-list {
+  .u-header-list {
     margin: 0;
     list-style: none;
     text-align: right;
     color: white;
     font-size: 1.5em;
   }
-  .c-header-item {
+  .u-header-list__item {
     display: inline-block;
     margin: 0.5em 0.5em 0.5em 0.5em;
   }
